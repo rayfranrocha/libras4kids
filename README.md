@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img alt="name" title="name" src="https://hefesto.uea.edu.br:8443/gitlab/software-dev-foundations/team-03/blob/essencial-files/Images/logoLibras4Kids.jpeg">
+    <img alt="name" title="name" src="https://hefesto.uea.edu.br:8443/gitlab/software-dev-foundations/team-03/blob/master/Images/logoLibras4Kids.jpeg">
   </a>
 </p>
 
