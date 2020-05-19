@@ -4,6 +4,13 @@
 
 Aplicativo com o intuito de ensinar a Linguagem de Sinais para crianças.
 
+## Autores
+Fabricio Batalha - https://www.linkedin.com/in/fabriciodev9/
+Jean Braga - https://www.linkedin.com/in/jean-braga-19b22813b/
+Isaac Gonzalez - https://www.linkedin.com/in/isaac-guillermo-gonzales-vizcarra-3327a144/
+Rayfran Rocha - https://www.linkedin.com/in/rayfranrocha/
+
+
 ## Resumo
 
 Este é um aplicativo educacional voltado ao ensino de libras para crianças. 
