@@ -1,5 +1,6 @@
 package com.librasforkids.ui.login;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,10 +14,15 @@ import com.librasforkids.utils.Utils;
 
 public class LoginActivity extends AppCompatActivity {
 
+    AlertDialog.Builder builder;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //cria o builder e conecta ao contexto da activity
+        builder = new AlertDialog.Builder(this);
 
         //conetando objetos da VIEW com variaveis da Activity
         final ImageView ivRobot = findViewById(R.id.ivRobot);
@@ -45,7 +51,10 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i("onClick","clicou no menino...");
 
+                builder.setMessage("Você escolher Menino. Parabéns!");
 
+                AlertDialog ad = builder.create();
+                ad.show();
             }
         });
 
@@ -53,6 +62,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.i("onClick","clicou na menina...");
+                builder.setMessage("Você escolher Menina. Parabéns!");
+
+                AlertDialog ad = builder.create();
+                ad.show();
             }
         });
 
