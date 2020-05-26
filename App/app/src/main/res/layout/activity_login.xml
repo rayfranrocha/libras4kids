@@ -19,27 +19,28 @@
         <ImageView
             android:id="@+id/ivRobot"
             android:layout_width="match_parent"
-            android:layout_height="200px" />
+            android:layout_height="100sp"
+            android:contentDescription="@string/robot_desc" />
 
         <TextView
             android:id="@+id/tvBemvindo"
             android:layout_width="match_parent"
-            android:layout_height="200px" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/tvEscolha"
             android:layout_width="match_parent"
-            android:layout_height="200px" />
+            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/ivMenino"
             android:layout_width="match_parent"
-            android:layout_height="400px" />
+            android:layout_height="180sp" />
 
         <ImageView
             android:id="@+id/ivMenina"
             android:layout_width="match_parent"
-            android:layout_height="400px" />
+            android:layout_height="180sp" />
 
     </LinearLayout>
 
